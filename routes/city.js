@@ -4,7 +4,6 @@ import {
   BOLIVAR,
   ATLANTICO,
   MAGDALENA,
-  SINCELEJO,
   ERROR,
 } from "../constants.js";
 
@@ -24,9 +23,7 @@ router.get("/:city", (req, res) => {
     res.json(ATLANTICO(req.params.city));
   } else if (checkCity("santa marta", cityParam)) {
     res.json(MAGDALENA(req.params.city));
-  } else if (checkCity("sincelejo", cityParam)) {
-    res.json(SINCELEJO);
-  } else {
+ } else {
     res.json({
       departamentoNormalizado: req.params.city,
       departmentoNoNormalizado: req.params.city,

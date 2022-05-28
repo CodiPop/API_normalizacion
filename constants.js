@@ -23,9 +23,5 @@ export const MAGDALENA = (rawDepartamento) => {
   };
 };
 
-export const SINCELEJO = {
-  message: "¿Estás bien? No existe.",
-};
-
-export const ERROR = { message: "Ciudad inválida" };
-export const WELCOME = { message: "Adivina el departamento ;)" };
+export const ERROR = { message: "Error en la ciudad" };
+export const WELCOME = { message: "No haz enviado ningun departamento" };
