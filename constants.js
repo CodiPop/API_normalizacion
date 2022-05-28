@@ -1,25 +1,25 @@
 export const CUNDINAMARCA = (rawDepartamento) => {
   return {
-    departamentoNormalizado: "Cundinamarca",
-    departmentoNoNormalizado: rawDepartamento,
+    deptNormalizado: "Cundinamarca",
+    deptNoNormalizado: rawDepartamento,
   };
 };
 export const BOLIVAR = (rawDepartamento) => {
   return {
-    departamentoNormalizado: "Bolívar",
-    departmentoNoNormalizado: rawDepartamento,
+    deptNormalizado: "Bolívar",
+    deptNoNormalizado: rawDepartamento,
   };
 };
 export const ATLANTICO = (rawDepartamento) => {
   return {
-    departamentoNormalizado: "Atlántico",
-    departmentoNoNormalizado: rawDepartamento,
+    deptNormalizado: "Atlántico",
+    deptNoNormalizado: rawDepartamento,
   };
 };
 export const MAGDALENA = (rawDepartamento) => {
   return {
-    departamentoNormalizado: "Magdalena",
-    departmentoNoNormalizado: rawDepartamento,
+    deptNormalizado: "Magdalena",
+    deptNoNormalizado: rawDepartamento,
   };
 };
 
