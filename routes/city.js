@@ -26,7 +26,7 @@ router.get("/:city", (req, res) => {
  } else {
     res.json({
       deptNormalizado: req.params.city,
-      deptNoNormalizado: req.params.city,
+      //deptNoNormalizado: req.params.city,
     });
   }
 });
