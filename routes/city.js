@@ -25,8 +25,7 @@ router.get("/:city", (req, res) => {
     res.json(MAGDALENA(req.params.city));
  } else {
     res.json({
-      deptNormalizado: req.params.city,
-      //deptNoNormalizado: req.params.city,
+      deptNormalizado: req.params.city
     });
   }
 });
